@@ -1,10 +1,10 @@
 {
   "architecture": "arm64",
   "build": {
-    "build_number": "1",
+    "build_number": "2",
     "coreaudio_abi": 3,
     "protocol_version": 1,
-    "revision": "cbfb93d91b47db371511c77043a5f21ac6ca1d61",
+    "revision": "7d496e910b8e890c0681528837c9aed8354c7c42",
     "version": "0.0.1"
   },
   "build_image": "ubuntu:24.04@sha256:2198e4c65076e9cb0b3d695219df667c0e3b0072da64ca3c2648aca17dcecaf5",
@@ -16,7 +16,7 @@
     "libpipewire-0.3": "1.0.5",
     "opus": "1.4"
   },
-  "package": "remote-voice_0.0.1-1.gitcbfb93d91b47db371511c77043a5f21ac6ca1d61_arm64.deb",
+  "package": "remote-voice_0.0.1-2.git7d496e910b8e890c0681528837c9aed8354c7c42_arm64.deb",
   "payload": [
     "usr/bin/remote-voice",
     "usr/lib/systemd/user/remote-voice.service"
@@ -26,7 +26,7 @@
     "VERSION_ID": "24.04"
   },
   "release_eligible": true,
-  "sha256": "d23825c187e02c7b77355a103639368cd57381425f595bf2444c8164c2246e30",
+  "sha256": "4e8c4658790475678954834ae298ef7739fb8ee088e58d3fc005159a65ec55e9",
   "signing": "openpgp",
   "signing_fingerprint": "9E17C0F153DEB9C12BAC63D70F857067D7AD4C77"
 }

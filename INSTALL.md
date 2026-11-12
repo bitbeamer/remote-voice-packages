@@ -2,9 +2,9 @@
 
 Use the repository for your exact distribution/release and architecture. Native
 build success is recorded in each manifest; it does not establish installation or
-audio qualification. openSUSE is deferred and has no published packages. Mint and Arch Linux ARM are
-not qualified by the
-Ubuntu, Leap or Arch x86_64 builds. macOS signing/notarization is deferred; no
+audio qualification. openSUSE is deferred and has no published packages. Mint is not qualified by the
+Ubuntu builds. Arch Linux ARM uses its own aarch64 package/repository, separate
+from Arch Linux x86_64. macOS signing/notarization is deferred; no
 unsigned Mac installer is published here.
 
 Public signing key: https://bitbeamer.github.io/remote-voice-packages/remote-voice.asc
@@ -39,7 +39,7 @@ with that HTTPS base URL, `gpgcheck=1`, `repo_gpgcheck=1`, and the public key UR
 above. Both package signatures and repository metadata are signed. Install/update
 `remote-voice` through DNF with normal administrator authorization.
 
-## Arch Linux x86_64
+## Arch Linux x86_64 and Arch Linux ARM aarch64
 
 Import and locally trust the public signing key using the normal `pacman-key`
 procedure after checking its fingerprint. Add this repository to pacman.conf:
@@ -49,6 +49,10 @@ procedure after checking its fingerprint. Add this repository to pacman.conf:
 SigLevel = Required DatabaseRequired
 Server = https://bitbeamer.github.io/remote-voice-packages/pacman/arch/x86_64
 ```
+
+For Arch Linux ARM aarch64, use
+`https://bitbeamer.github.io/remote-voice-packages/pacman/archlinuxarm/aarch64`
+as the Server instead. Do not use the x86_64 repository on ARM.
 
 Use a normal full-system `pacman -Syu` transaction to install/update the companion.
 Do not perform a partial Arch system upgrade. The package and repository database

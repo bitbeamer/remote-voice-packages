@@ -1,0 +1,13 @@
+1bb636efbeb07f938fdd27afc1f2bbde0ff26fb2b4f9174870bf286a7d24db7a  manifest.json
+486f234794d24bfab830dc5862c97d04673152ecb797888ee59277203b58b909  remote-voice-0.0.1-2-aarch64.pkg.tar.zst
+d047f92d12a6b5c6c8ba58690a6ff535ff1545205eb2ad3013b675780dc27ce9  remote-voice-0.0.1-2-aarch64.pkg.tar.zst.asc
+a107a2ebfdecbb3cff4c17e7af82ad65a91ad486009f51a2894d28f85d8078b1  remote-voice-0.0.1-2-aarch64.pkg.tar.zst.sig
+282d07d8c5df28abcd953691f0a2f0a60caa05e17379fca3c2e8e858d0535a52  remote-voice.asc
+c05e96b8c13208b30f4e164f761316c1b736b85bde10e5a7045a34bb9d77a832  remote-voice.db
+ec2b048ecb82b11920946dc52b9ce5960e321dbc62dfd3c0519e1702ab174d8b  remote-voice.db.sig
+c05e96b8c13208b30f4e164f761316c1b736b85bde10e5a7045a34bb9d77a832  remote-voice.db.tar.gz
+ec2b048ecb82b11920946dc52b9ce5960e321dbc62dfd3c0519e1702ab174d8b  remote-voice.db.tar.gz.sig
+e90e157708099d25e160307b80c294936ec90986e6832f4684330ca17f41657f  remote-voice.files
+c39c833b12d660fc16f1fb91b5ce1f4d86dba2cfd6c0ab8062e23892d067ade3  remote-voice.files.sig
+e90e157708099d25e160307b80c294936ec90986e6832f4684330ca17f41657f  remote-voice.files.tar.gz
+c39c833b12d660fc16f1fb91b5ce1f4d86dba2cfd6c0ab8062e23892d067ade3  remote-voice.files.tar.gz.sig
