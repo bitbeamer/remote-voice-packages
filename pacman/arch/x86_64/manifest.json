@@ -1,0 +1,33 @@
+{
+  "architecture": "amd64",
+  "build": {
+    "build_number": "1",
+    "coreaudio_abi": 3,
+    "protocol_version": 1,
+    "revision": "cbfb93d91b47db371511c77043a5f21ac6ca1d61",
+    "version": "0.0.1"
+  },
+  "build_image": "archlinux:base-devel@sha256:fa2d4ce3310ddd90a4208e5168be8ad367da5129af1245f38fd2d803bcbe3239",
+  "dependencies": "opus\npipewire\nalsa-lib\nsystemd\ndbus",
+  "format": 1,
+  "kind": "candidate",
+  "native_dependencies": {
+    "alsa": "1.2.16.1",
+    "libpipewire-0.3": "1.6.11",
+    "opus": "1.6.1"
+  },
+  "package": "remote-voice-0.0.1-1-x86_64.pkg.tar.zst",
+  "payload": [
+    "usr/bin/remote-voice",
+    "usr/lib/systemd/user/remote-voice.service"
+  ],
+  "platform": {
+    "BUILD_ID": "rolling",
+    "ID": "arch",
+    "VERSION_ID": "20261108.0.623074"
+  },
+  "release_eligible": true,
+  "sha256": "a3e397576366df465741a27178a32716b857aebdcb3f81fc5411abdc9b6f5cef",
+  "signing": "openpgp",
+  "signing_fingerprint": "9E17C0F153DEB9C12BAC63D70F857067D7AD4C77"
+}
