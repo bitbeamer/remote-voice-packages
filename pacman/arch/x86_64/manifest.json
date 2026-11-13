@@ -1,10 +1,10 @@
 {
   "architecture": "amd64",
   "build": {
-    "build_number": "4",
+    "build_number": "5",
     "coreaudio_abi": 3,
     "protocol_version": 1,
-    "revision": "f10a44d86a225e2dcd21afbd1ac8e8a5c4a8a999",
+    "revision": "0fb23e4aa71f99c763f685df7462473038add1e4",
     "version": "0.0.1"
   },
   "build_image": "archlinux:base-devel@sha256:fa2d4ce3310ddd90a4208e5168be8ad367da5129af1245f38fd2d803bcbe3239",
@@ -42,7 +42,7 @@
     "cryptsetup 2.8.8-2",
     "curl 8.23.0-2",
     "db5.3 5.3.28-7",
-    "dbus 1.16.2-2",
+    "dbus 1.16.4-1",
     "dbus-broker 37-3",
     "dbus-broker-units 37-3",
     "dbus-units 37-3",
@@ -123,7 +123,7 @@
     "libnl 3.12.0-1",
     "libnsl 2.0.1-2",
     "libobjc 16.2.1+r23+gd564253eb6c8-1",
-    "libp11-kit 0.26.5-1",
+    "libp11-kit 0.26.6-1",
     "libpcap 1.11.0-1",
     "libpipewire 1:1.6.11-1",
     "libpsl 0.21.5-2",
@@ -159,7 +159,7 @@
     "openssl 4.1.0-1",
     "openssl-3 3.5.9-2",
     "opus 1.6.1-1",
-    "p11-kit 0.26.5-1",
+    "p11-kit 0.26.6-1",
     "pacman 7.1.0.r9.g54d9411-4",
     "pacman-mirrorlist 20260610-1",
     "pam 1.7.3-1",
@@ -200,7 +200,7 @@
     "zlib-ng 2.3.3-1",
     "zstd 1.5.7-3"
   ],
-  "package": "remote-voice-0.0.1-4-x86_64.pkg.tar.zst",
+  "package": "remote-voice-0.0.1-5-x86_64.pkg.tar.zst",
   "payload": [
     "usr/bin/remote-voice",
     "usr/lib/systemd/user/remote-voice.service",
@@ -213,7 +213,7 @@
     "VERSION_ID": "20261108.0.623074"
   },
   "release_eligible": true,
-  "sha256": "70d9c9138bd022c5b522db6c316c790b186ddf1e003fe95f8c63d3d00c02cb42",
+  "sha256": "0accd8716b8bf668ae4ce4c04eec3a34c413d2d362dcc055987b6fa41d1d64bd",
   "signing": "openpgp",
   "signing_fingerprint": "9E17C0F153DEB9C12BAC63D70F857067D7AD4C77"
 }

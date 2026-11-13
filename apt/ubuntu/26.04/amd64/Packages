@@ -1,16 +1,16 @@
 Package: remote-voice
 Architecture: amd64
-Version: 0.0.1-4.gitf10a44d86a225e2dcd21afbd1ac8e8a5c4a8a999
+Version: 0.0.1-5.git0fb23e4aa71f99c763f685df7462473038add1e4
 Priority: optional
 Section: sound
 Maintainer: Remote Voice developers
 Depends: libasound2t64 (>= 1.1.6), libc6 (>= 2.34), libopus0 (>= 1.1), libpipewire-0.3-0t64 (>= 0.3.8), systemd, dbus-user-session
-Filename: ./remote-voice_0.0.1-4.gitf10a44d86a225e2dcd21afbd1ac8e8a5c4a8a999_amd64.deb
-Size: 9124504
-MD5sum: 86bd4c43640313ef46ce7edaf331f5f4
-SHA1: 5236d5cd861a8e338743f48851d6eea1107534f3
-SHA256: 29eb0c2b4c0a237495846c74d68f853fff3fee79abfa74b4e21fdff2d9c65aa7
-SHA512: b349bb2f4436b9aebbc8b96dd35b63c4cdad488596163ec1d4b02624ce802bf3169cd48530957052dc457d5edd9329d6132b583f5177f6cd143d91599b5c57cb
+Filename: ./remote-voice_0.0.1-5.git0fb23e4aa71f99c763f685df7462473038add1e4_amd64.deb
+Size: 9144640
+MD5sum: d5c777f05262fb042af9334eab42e3d4
+SHA1: e8e66883a97f99577d6ad957b6dc6437dc77e4d3
+SHA256: be82432f25a4d19b289840ff01e17536f4f2e131c6ddf584c6a6003b255b79ed
+SHA512: bccd80398268e9b7166490e34d3bd5cef873a97a8dc1cafbc706abe7f6b8dd753cf2004409a3f4d5ad5532f69312acc89bcf5928d18cde783bfae57931fbfc12
 Description: Remote Voice companion
  Requires an existing user PipeWire session; installation does not start it.
 

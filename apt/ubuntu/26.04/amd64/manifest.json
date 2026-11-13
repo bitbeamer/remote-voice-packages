@@ -1,10 +1,10 @@
 {
   "architecture": "amd64",
   "build": {
-    "build_number": "4",
+    "build_number": "5",
     "coreaudio_abi": 3,
     "protocol_version": 1,
-    "revision": "f10a44d86a225e2dcd21afbd1ac8e8a5c4a8a999",
+    "revision": "0fb23e4aa71f99c763f685df7462473038add1e4",
     "version": "0.0.1"
   },
   "build_image": "ubuntu:26.04@sha256:065aa8626841f16057b78b027b464cd59c4fac36c204c72dcbf48d66f5fa8a96",
@@ -16,7 +16,7 @@
     "libpipewire-0.3": "1.6.2",
     "opus": "1.6.1"
   },
-  "package": "remote-voice_0.0.1-4.gitf10a44d86a225e2dcd21afbd1ac8e8a5c4a8a999_amd64.deb",
+  "package": "remote-voice_0.0.1-5.git0fb23e4aa71f99c763f685df7462473038add1e4_amd64.deb",
   "payload": [
     "usr/bin/remote-voice",
     "usr/lib/systemd/user/remote-voice.service"
@@ -26,7 +26,7 @@
     "VERSION_ID": "26.04"
   },
   "release_eligible": true,
-  "sha256": "29eb0c2b4c0a237495846c74d68f853fff3fee79abfa74b4e21fdff2d9c65aa7",
+  "sha256": "be82432f25a4d19b289840ff01e17536f4f2e131c6ddf584c6a6003b255b79ed",
   "signing": "openpgp",
   "signing_fingerprint": "9E17C0F153DEB9C12BAC63D70F857067D7AD4C77"
 }
