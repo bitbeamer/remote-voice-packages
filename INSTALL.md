@@ -191,3 +191,36 @@ private and outside Git/support bundles; they contain keys and authorization dat
 Never share real pairing links, bearer tokens, raw state, SDP/ICE credentials or
 audio recordings in diagnostics. Retired trust must not be automatically restored
 from an older backup, particularly after suspected key compromise.
+
+## Updates, trust and private data
+
+Install/update through the same package manager and signed repository used above:
+APT `install --only-upgrade remote-voice`, DNF `upgrade remote-voice`, or Arch's
+full-system `pacman -Syu`. APT/DNF updates require an explicit user-service
+restart afterward. Arch packages containing the upgrade hook automatically
+`try-restart` only already-running `remote-voice.service` instances in existing
+non-root user managers, including linger users. Active connections briefly
+disconnect while the new binary starts. Stopped, failed, absent and masked
+services stay untouched; installation/removal and unrelated package updates do
+not trigger this hook. Pacman also classifies reinstalls/downgrades of an already
+installed package as Upgrade operations.
+
+The hook never enables services or creates login sessions/user managers. Offline
+image/chroot installations skip service work. Unavailable buses, restart failures
+or timeouts produce a pacman hook error and follow-up guidance; the package update
+has already completed and is not rolled back. A timeout may leave a queued systemd
+job finishing afterward. Affected users should inspect
+`systemctl --user status remote-voice.service` in their own session and restart it
+when ready. The hook waits at most 60 seconds overall, with a five-second forced
+termination allowance; large sets of users may need manual follow-up. This source
+change is available only after a package containing the hook is published; older
+packages, including 0.0.1 build 3, still need an explicit service restart.
+
+To opt out before an upgrade, an administrator can override the package hook with
+`/etc/pacman.d/hooks/remote-voice-user-restart.hook` as a symlink to `/dev/null`;
+then users must restart their own services explicitly after updating. No identities,
+profiles or pairings are changed by package maintenance.
+
+The app's compatibility preflight can prompt you to update through those tools;
+it never installs software remotely. If status is unavailable, compatibility remains unknown
+rather than being reported as a confirmed version mismatch.

@@ -1,10 +1,10 @@
 {
   "architecture": "arm64",
   "build": {
-    "build_number": "3",
+    "build_number": "4",
     "coreaudio_abi": 3,
     "protocol_version": 1,
-    "revision": "13a6808911d7ccd4441835e55db74fb26dff16f1",
+    "revision": "f10a44d86a225e2dcd21afbd1ac8e8a5c4a8a999",
     "version": "0.0.1"
   },
   "build_image": "debian:13@sha256:9c6e381421d0f48d1b8133e573f33c185ee16cbf505eda9c4a8a4791b25ea8a6",
@@ -16,7 +16,7 @@
     "libpipewire-0.3": "1.4.2",
     "opus": "1.5.2"
   },
-  "package": "remote-voice_0.0.1-3.git13a6808911d7ccd4441835e55db74fb26dff16f1_arm64.deb",
+  "package": "remote-voice_0.0.1-4.gitf10a44d86a225e2dcd21afbd1ac8e8a5c4a8a999_arm64.deb",
   "payload": [
     "usr/bin/remote-voice",
     "usr/lib/systemd/user/remote-voice.service"
@@ -26,7 +26,7 @@
     "VERSION_ID": "13"
   },
   "release_eligible": true,
-  "sha256": "93cc35033c12bc279f1c6eab4de31c956a4dde5d0c9649ba82a52fec38b64a4f",
+  "sha256": "2797fb5732ed0f83956e3de4ad039a1eca05fd895b0a6756751f7acf279f946b",
   "signing": "openpgp",
   "signing_fingerprint": "9E17C0F153DEB9C12BAC63D70F857067D7AD4C77"
 }
