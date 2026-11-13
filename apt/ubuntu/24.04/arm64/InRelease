@@ -1,32 +1,32 @@
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA512
 
-Date: Thu, 12 Nov 2026 06:46:46 +0000
+Date: Fri, 13 Nov 2026 06:12:06 +0000
 Label: Remote Voice
 Origin: Remote Voice
 MD5Sum:
- 9a5cbcd5783a3ec7407c49a067afdf69              817 Packages
- 0769fb787d2d4792d8d2e4ac4c4b747a              534 Packages.gz
+ f009dea59b5638dee9bb48a59fd08b68              817 Packages
+ 3fb08443e5a737d61fdf1820fe042cb0              536 Packages.gz
 SHA1:
- 741d051f80308ef1a4b338b47ec5bf24173aacf8              817 Packages
- 89ef40273f247644b02fd795414a8323d8ba62e8              534 Packages.gz
+ b42f41364b291ff96bd5635065dea1e53df4f764              817 Packages
+ 880309655e777e50d83e68d4811dd49d4172e521              536 Packages.gz
 SHA256:
- 5b9ba80ca5aa705b99a31f53969a03e9d18bed1e60e4d6b5e2c3190be6b26fae              817 Packages
- 9e43c00dd87450f19451c48243f534f7d4b81a4827e2e28167c9e4d06023b6ee              534 Packages.gz
+ 11fcfb0994066495be5a2c15a420177ebc58ebf50a8955e1a8cefc6b7e21521a              817 Packages
+ 77567f3812de8e2f317bf52f77c1b3829233415e6a018765435ff87323b9bcb6              536 Packages.gz
 SHA512:
- d70d9792cf1ddfabc94de846088469150207c38bfa15ba283047c2b9f6cf2f388f940266c2b5919294f8315699421c7a8d9f9a627a3a6d5c1d00987a10f6b3a7              817 Packages
- 4a77aba50b73afea3cc80d73f7080735a7deebfe3c8e7c827e47ae9e8653ee4d50944430cdf8e5980f5fc70bd79c963d738b58dc01eba6d7edc7a46a9b8a4f43              534 Packages.gz
+ 787f99cd0e67883723e9c27cda27edbb76214dec54c215d66d784c01eca2be460beaff463dbcba90ef092f38c5f5e610a13e49bc4e1cca1060d06b48de5dda00              817 Packages
+ bf342a7d9a7b06dee3562996c3bbdcf54fd6ab01d120cadf337a400a6b8447c71e982005408c1d974e44fe7932411c011d1c83715ad05cd1185992df51cd2288              536 Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEEnhfA8VPeucErrGPXD4VwZ9etTHcFAmr1YNYACgkQD4VwZ9et
-THfu9Av/ckj8uOJF6HsnuuAW2wAna0TdquWh3IDW3v7t0W62LJMsTFCaDXSZWaZk
-/JYFlDwfmRBMe263pJAgFRnDlP5OtH8BLwNGapNuzp7cKNZLcpSbF7Ie0fbSufRY
-C9V4WmJtxfSDkHAggk6tMQB9AkEBOm5yyFUha0tHeaY1tPfInmnyEyKico7i7L5B
-pkOYw4cJlsqW/pvKYJI7iAa/3z7FMxm1Hok/1BHC+7SY+FA+GvyjrK3G50zeUzPl
-cwarUaox4IaA8ZppsFMnCym3+dS5E8S7v+pcX3GpEItfJoTxNFuN7ZRnEmAhnJb8
-0nbHzo2g5faxGHzqoJDphPQ7sma3Cv2hHYtnbaS3zVKjkvoCHpu+RunLgxfg1hSV
-1X+V22WeripbQGSNwn2ny908G9lC0XfaB5XtleZmaU1Q1G51icioIZ4i07bU/3+q
-PM2EoHueGd7df56m8ZsLJ1uooJE+Q7YZvmj9KD+NGI5/UeKO28vmCzHiPvRUx/na
-YrEyCXp0
-=jRyL
+iQGzBAEBCgAdFiEEnhfA8VPeucErrGPXD4VwZ9etTHcFAmr2qjYACgkQD4VwZ9et
+THdR/Av/ay5Rx6KkMTRSJMYzi6pPUWBzCesG3Btd/WLhI+bu2L2QDDA2evQqgCJb
+eTgfgRymjzVPLPrfFLi7/gjeAbnhoNSMKg+rmIpuzh4UpoZ4OzpJXCYl6F/2YVbz
+xRlmfv1q+k+1v8vXAkSY3GsiGzHOKUY31EbgxAS1377mAR94GwFMbzeg4DpK1uJb
+uJKQExKjELXXvO0sk/MxihzUdx1B+fmayWsm/V/vKzR4tGf6fxyQ3/d4hIJWAljH
+KPrEBLSKjCkZC1BBkTW/qzZZml3BpJBoPNnJdiajdt9PKuFRHftiV8iMMeomzy08
+yUwbNo+qEI5xziDEzrx+LTyLTSfwELvEMyTobaMh64vrvbEsiSf1pFE3kHG6NTVY
+ZBIUQ0+QTj7W4najadDy1Up0iwApYxhQ+Wa2Soz683E5gl4JrDwEbTBO90VI8QiI
+EwF5YNl5vjwg0pVjA/Kx79yQTq2BIKR0SLjvMx59h7Aq4UmIom0vpKwUP5207Adw
+hjx26wRJ
+=ykQL
 -----END PGP SIGNATURE-----

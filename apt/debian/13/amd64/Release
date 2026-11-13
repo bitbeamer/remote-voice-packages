@@ -1,15 +1,15 @@
-Date: Thu, 12 Nov 2026 06:46:58 +0000
+Date: Fri, 13 Nov 2026 06:12:02 +0000
 Label: Remote Voice
 Origin: Remote Voice
 MD5Sum:
- d5962c2ada3b7de03dcbd82b19840d28              817 Packages
- ae31b323c921a1913717cc0dce99a5a2              537 Packages.gz
+ fa7e7df8240b3a2e7b92fa0f74b9e33f              817 Packages
+ bf3ba6c9226759e0dfb960c1ea3c0d40              537 Packages.gz
 SHA1:
- c61e09d880d5611e4363a3740ea3d6f4a77ac493              817 Packages
- c194c5d122065603785be3294fef3a704dcdcb3b              537 Packages.gz
+ 1069dda579012e757ac23f6fd038892273cbcea0              817 Packages
+ 5e5d9b6ec947c95bb9b59ec27a39278306111e01              537 Packages.gz
 SHA256:
- 47e83f41f6b59e1c8a89aa42d8f18b572c01005cae2787c6942335d33d64e4ed              817 Packages
- 3936ce4e263b6b9a9fbedd2a3843da0d7bd7816698516a8e71bbc0fca8ba6e40              537 Packages.gz
+ c7475652e46a50b3068c9307c71f7c00fe0547c808c07f627f806ec0e963fb86              817 Packages
+ 6c50cfd9f68473af50706cc7dc1d8d50bab7a2b0399900fe0ee92227da0aa4cd              537 Packages.gz
 SHA512:
- b703cbc643bd9c7768730da457b02bcd290e6cb21977e9a751476df6f839c01d0e6d3f8af81397d7ad988fc9a5aa4fcedd33051b73c03345947f6e0db6f177ef              817 Packages
- 4084cadf26cf8caea7a2b6924df20b4025814bec96881cdf2f28d69e9cc7e4372699c45f505f4a440af3db584afd2ca02a802ee66debec0fc7660f41367a01be              537 Packages.gz
+ 4d0a77ede380a8d500277e77f1403415b778b32a3dda49bf9bf777aef17d328a389324bf451ec01f655bdc0a2c7a3693358ecc11a4f50f8e8cf7e92becc9fe64              817 Packages
+ ccca4445f48e03ef205e13a35036bb95a3d8798c4850c6140a058f91ad7b302798cec967ed2b1887fd0eca8dc07c5c03e8ad21e3e5ecd813fd0f8c0c754d980d              537 Packages.gz
