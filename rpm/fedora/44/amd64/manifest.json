@@ -1,10 +1,10 @@
 {
   "architecture": "amd64",
   "build": {
-    "build_number": "5",
+    "build_number": "6",
     "coreaudio_abi": 3,
     "protocol_version": 1,
-    "revision": "0fb23e4aa71f99c763f685df7462473038add1e4",
+    "revision": "af4b3654312871f5b26233d7b409d6b104b78411",
     "version": "0.0.1"
   },
   "build_image": "registry.fedoraproject.org/fedora:44@sha256:f08613fffc95f5c85c019b2f4ac9e9fb9bb84b9cfd59275671b84169567b157e",
@@ -16,7 +16,7 @@
     "libpipewire-0.3": "1.6.11",
     "opus": "1.6"
   },
-  "package": "remote-voice-0.0.1-5.git0fb23e4aa71f99c763f685df7462473038add1e4.x86_64.rpm",
+  "package": "remote-voice-0.0.1-6.gitaf4b3654312871f5b26233d7b409d6b104b78411.x86_64.rpm",
   "payload": [
     "usr/bin/remote-voice",
     "usr/lib/systemd/user/remote-voice.service"
@@ -26,7 +26,7 @@
     "VERSION_ID": "44"
   },
   "release_eligible": true,
-  "sha256": "bb2b785b204b8e2296e0631186ecb8ae599601173b7a58d186e6243e313cb97e",
+  "sha256": "fb793dc743e2e4bdffd6b62245449c24589f292a71d155e770d4f21b1f42ac86",
   "signing": "openpgp",
   "signing_fingerprint": "9E17C0F153DEB9C12BAC63D70F857067D7AD4C77"
 }

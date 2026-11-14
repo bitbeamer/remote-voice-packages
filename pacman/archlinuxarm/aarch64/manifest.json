@@ -1,10 +1,10 @@
 {
   "architecture": "arm64",
   "build": {
-    "build_number": "5",
+    "build_number": "6",
     "coreaudio_abi": 3,
     "protocol_version": 1,
-    "revision": "0fb23e4aa71f99c763f685df7462473038add1e4",
+    "revision": "af4b3654312871f5b26233d7b409d6b104b78411",
     "version": "0.0.1"
   },
   "build_image": "archlinuxarm-rootfs@sha256:42a4eeaa038994ffd31fa173256ef2f0ef511358eeb41b9ea1f8626391b9b319",
@@ -228,7 +228,7 @@
     "zlib-ng 2.3.3-1",
     "zstd 1.5.7-3"
   ],
-  "package": "remote-voice-0.0.1-5-aarch64.pkg.tar.zst",
+  "package": "remote-voice-0.0.1-6-aarch64.pkg.tar.zst",
   "payload": [
     "usr/bin/remote-voice",
     "usr/lib/systemd/user/remote-voice.service",
@@ -240,7 +240,7 @@
     "ID": "archarm"
   },
   "release_eligible": true,
-  "sha256": "5ab746991a377cdc7846ac7a4acfe340d2d9df5241d9fcb98ca071c6d2bc5040",
+  "sha256": "a5d775677796cf431e19cf0f07bfee7daf24cdbe13039caddd88cddceff3f237",
   "signing": "openpgp",
   "signing_fingerprint": "9E17C0F153DEB9C12BAC63D70F857067D7AD4C77"
 }

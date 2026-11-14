@@ -1,10 +1,10 @@
 {
   "architecture": "amd64",
   "build": {
-    "build_number": "5",
+    "build_number": "6",
     "coreaudio_abi": 3,
     "protocol_version": 1,
-    "revision": "0fb23e4aa71f99c763f685df7462473038add1e4",
+    "revision": "af4b3654312871f5b26233d7b409d6b104b78411",
     "version": "0.0.1"
   },
   "build_image": "archlinux:base-devel@sha256:fa2d4ce3310ddd90a4208e5168be8ad367da5129af1245f38fd2d803bcbe3239",
@@ -25,7 +25,7 @@
     "attr 2.6.0-1",
     "audit 4.2.1-1",
     "autoconf 2.73-1",
-    "automake 1.19-1",
+    "automake 1.20-1",
     "base 3-3",
     "base-devel 1-2",
     "bash 5.3.20-1",
@@ -56,7 +56,7 @@
     "file 5.48-1",
     "filesystem 2025.10.12-1",
     "findutils 4.11.0-1",
-    "flex 2.6.4-6",
+    "flex 2.6.10-1",
     "gawk 5.4.1-1",
     "gc 8.2.12-1",
     "gcc 16.2.1+r23+gd564253eb6c8-1",
@@ -200,7 +200,7 @@
     "zlib-ng 2.3.3-1",
     "zstd 1.5.7-3"
   ],
-  "package": "remote-voice-0.0.1-5-x86_64.pkg.tar.zst",
+  "package": "remote-voice-0.0.1-6-x86_64.pkg.tar.zst",
   "payload": [
     "usr/bin/remote-voice",
     "usr/lib/systemd/user/remote-voice.service",
@@ -213,7 +213,7 @@
     "VERSION_ID": "20261108.0.623074"
   },
   "release_eligible": true,
-  "sha256": "0accd8716b8bf668ae4ce4c04eec3a34c413d2d362dcc055987b6fa41d1d64bd",
+  "sha256": "2d908ce65f35d171c6d1e7ecf55a0fad2c799a09b98546c66ee7d1c445be1ffc",
   "signing": "openpgp",
   "signing_fingerprint": "9E17C0F153DEB9C12BAC63D70F857067D7AD4C77"
 }
